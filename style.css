@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    border: red solid 4px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60vh;
+}
+.container > *{
+    background-color: blue;
+    width: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.col1{
+    align-self: baseline;
+    order: 1;
+}
+.col7{
+    order: 2;
+}
+.col3{
+    order: 4;
+}
